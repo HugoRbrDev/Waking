@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/button_ir_para_Menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="Começar"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="610dp"
+        android:onClick="abrirActivityMenu"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
