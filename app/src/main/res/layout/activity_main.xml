@@ -9,10 +9,11 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonMainToMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:onClick="buttonMainToMenu"
+        android:text="Menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
