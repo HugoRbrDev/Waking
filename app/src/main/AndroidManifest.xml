@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Waking"
         tools:targetApi="31">
         <activity
-            android:name=".ProfissionalActivity"
+            android:name=".view.ProfissionalActivity"
             android:exported="false" />
         <activity
-            android:name=".FinancasActivity"
+            android:name=".view.FinancasActivity"
             android:exported="false" />
         <activity
             android:name=".view.MenuActivity"

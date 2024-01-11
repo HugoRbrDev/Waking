@@ -1,8 +1,10 @@
-package devandroid.hugo.waking;
+package devandroid.hugo.waking.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.hugo.waking.R;
 
 public class FinancasActivity extends AppCompatActivity {
 

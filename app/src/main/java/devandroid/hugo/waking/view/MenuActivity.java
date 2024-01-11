@@ -7,7 +7,6 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import devandroid.hugo.waking.FinancasActivity;
 import devandroid.hugo.waking.R;
 
 public class MenuActivity extends AppCompatActivity {
