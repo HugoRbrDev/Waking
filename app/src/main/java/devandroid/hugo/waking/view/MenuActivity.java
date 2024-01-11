@@ -21,4 +21,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(MenuActivity.this, FinancasActivity.class);
         startActivity(intent);
     }
+    //Button Menu pra tela Profissional
+    public void buttonMenuToProfissional(View view) {
+        Intent intent = new Intent(MenuActivity.this, ProfissionalActivity.class);
+        startActivity(intent);
+    }
 }
